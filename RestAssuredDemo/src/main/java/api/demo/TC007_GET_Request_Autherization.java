@@ -25,7 +25,7 @@ public class TC007_GET_Request_Autherization {
 		// Request Object
 		RequestSpecification httpRequest = RestAssured.given();
 
-		// Response object
+		// Response object 
 		Response response = httpRequest.request(Method.GET, "/");
 
 		// Print Response in console window
